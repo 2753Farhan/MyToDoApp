@@ -28,6 +28,7 @@ export default function Navbar({ deletedboxhandler,showdoneboxHandler,deletecoun
         <p className='cursor-pointer'>deleted: {deletecount}</p>
         <p className='cursor-pointer'>upcoming: {upcomingcount}</p>
       </div>
+      
     </nav>
   );
 }
